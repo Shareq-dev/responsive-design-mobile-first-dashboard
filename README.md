@@ -40,7 +40,7 @@ The Playwright/Edge layout audit checks all five pages at 15 viewport sizes, in 
 To run the audit on Windows, start the local server in the project folder, then open another PowerShell window in that folder and run:
 
 ```powershell
-$env:NODE_PATH='C:\nvm4w\nodejs\node_modules'
+$env:NODE_PATH='<path-to-your-global-node_modules>'
 node tests/responsive-layout-audit.js
 ```
 
